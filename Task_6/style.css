@@ -6,10 +6,9 @@
     background: #ffffff;
     width: 80%;
     width: 1600px;
-    min-width: 800px; 
+    min-width: 800px;
     height: auto;
     margin: 0 10%;
-
 }
 
 .header_background {
@@ -28,7 +27,7 @@
     height: 75px;
     width: 1600px;
     min-width: 800px;
-    gap: 50%;    
+    gap: 50%;
 }
 
 .navigation_left_block {
@@ -36,7 +35,7 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
-    min-width: 300;    
+    min-width: 300;
 }
 
 .navigation_right_block {
@@ -88,7 +87,6 @@ body {
     height: auto;
 }
 
-
 .img_top_content_1st {
     width: 360px;
     height: 260px;
@@ -97,6 +95,24 @@ body {
 .img_top_content_2st {
     width: 1140px;
     height: 180px;
+}
+
+.main_content_text_h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    color: #222222;
+    margin: 95px 0 0;
+}
+
+.main_content_text_p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #9F9F9F;
+    margin: 0 0 45px;
 }
 
 .main_content {
@@ -115,7 +131,55 @@ body {
     text-align: center;
     align-items: center;
     margin: 6%;
+}
 
+.main_content_img {
+    background-color: #f3f3f3;
+    text-align: center;
+    Width: 360px;
+    Height: 580px;
+}
+
+.main_content_img_prod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 420px;
+    margin-top: 5%;
+    background-color: #F7E4E2;
+}
+
+.main_content_text_prod {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5%;
+    gap: 15px;
+    margin-top: 5%;
+}
+
+.img_prod_h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+
+.img_prod_p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #5D5D5D;
+    text-align: left;
+}
+
+.main_content_price {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #F16D7F;
 }
 
 .main_content__button_1 {
@@ -129,9 +193,5 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: #F26376;
+    margin-bottom: 25%;
 }
-
-
-
-
-
