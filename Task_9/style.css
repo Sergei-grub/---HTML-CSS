@@ -310,7 +310,7 @@ footer {
     font-weight: 400;
     margin-top: 40px;
     max-width: 360px;
-    height: 99px;
+    height: auto;
 }
 
 .feedback__text--italic {
@@ -504,5 +504,43 @@ footer {
         align-items: center;
         flex-direction: column;
         margin: 15%;
+    }
+
+    .container_promotions {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .subscribes_bck {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+        gap: 0%;
+    }
+
+    .container_subscribes {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    .container_socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        padding: 1%;
     }
 }
