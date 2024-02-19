@@ -95,6 +95,7 @@ body {
 }
 
 .img_top_content_2nd {
+    position: relative;
     width: 1140px;
     height: 180px;
     box-shadow: 0px 10px 10px 0px #c5c5c5;
@@ -116,9 +117,8 @@ body {
 
 .text_overlay_2nd {
     position: absolute;
-    bottom: -11px;
-    left: 416px;
-    padding: 65px 513px;
+    top: 0px;
+    padding: 57px 513px;
     text-align: center;
     font-family: 'Lato', sans-serif;
     color: #ffffff;

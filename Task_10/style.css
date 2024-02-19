@@ -259,10 +259,8 @@ footer {
 
 .container_subscribes {
     background-image: url("img/Footer/Layer_Footer.png");
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-repeat: no-repeat;
+    background-color: #ebebeb;
 }
 
 .subscribes_bck {
