@@ -74,6 +74,8 @@
 
 body {
     background-color: #aaaaaa;
+    min-width: 320px;
+    display: grid;
 }
 
 .top_content {
@@ -434,6 +436,8 @@ footer {
         color: #F26376;
     }
 
+
+
     .main_content {
         display: grid;
         grid-template-columns: 360px 360px;
@@ -465,6 +469,19 @@ footer {
 @media(min-width: 320px) and (max-width: 767px) {
 
     /*Стили для планшета на разрешениях экрана 320-767*/
+
+    .banner {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0px 20px;
+        flex-direction: column-reverse;
+    }
+
+    .img_top {
+        display: none;
+    }
+
     .top_content {
         display: flex;
         justify-content: center;
@@ -481,32 +498,11 @@ footer {
         margin: 15%;
     }
 
-    .top__cards {
-        grid-template-columns: 320px;
-    }
-
-    .prod__cards {
-        grid-template-columns: 320px;
-    }
-
-    .main_content {
-        width: 320px;
-    }
-
-    .promo__card {
-        width: 320px;
-    }
-
-    .input__mail {
-        width: 160px;
-    }
-
-    .social__info {
-        margin: 0 13px;
-    }
-
-    .background {
-        margin: auto;
-
+    .main_content_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 15%;
     }
 }
